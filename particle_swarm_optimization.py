@@ -57,7 +57,7 @@ class ParticleSwarmOptimizer(object):
             toc = time.monotonic()
             if (verbosity == True):
                 print('Iteration {:.0f} >> global best fitness {:.3f} | current mean fitness {:.3f} | iteration time {:.3f}'
-                .format(iteration + 1,self.global_best_fitness,self.currents_fitness.mean(),toc-tic))
+                .format(iteration + 1,self.global_best_fitness,self.current_fitness.mean(),toc-tic))
 
 #-----------------------------------------------------------------------------------------------------------------------
 
